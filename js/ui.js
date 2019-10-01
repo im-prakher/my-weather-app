@@ -23,7 +23,7 @@ class UI {
         <h1 class="text-dark" id="w-location">${data.weather.name}</h1>
         <h3 class="text-dark mb-3" id="w-desc">${data.weather.weather[0].main}</h3>
         <i class="${icon}"></i><br>
-        <div class=" list-group">
+        <div class=" list-group" id="list">
             <div class="list-group-item"><b>Temperature</b>: ${data.weather.main.temp} C </div>
             <div class="list-group-item"><b>Max Temperature:</b> ${data.weather.main.temp_max} C</div>
             <div class="list-group-item"><b>Min Temperature:</b> ${data.weather.main.temp_min} C</div>
@@ -32,10 +32,9 @@ class UI {
             <div class="list-group-item"><b>Wind Speed</b>: ${data.weather.wind.speed}</div>
             
         </div>`;
-
-        this.outDiv.innerHTML = output;
         
 
+        this.outDiv.innerHTML = output;
     }
     
 }

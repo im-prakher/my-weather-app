@@ -1,5 +1,8 @@
-.mycontainer{
-	//margin-right:40%;
-	//margin-left:40%;
-
+#list{
+	margin-top:1%;
+}
+body{
+	padding: 5%;
+	height:100vh;
+	background: linear-gradient(135deg,#202040 0%,#202060 ,#602080 ,#b030b0 100%);
 }
