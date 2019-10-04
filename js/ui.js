@@ -7,21 +7,26 @@ class UI {
     updateWeather(data) {
             var coolMessage = '';
             var icon='';
-            if(data.weather.weather[0].main=='Haze')
+            if(data.weather.weather[0].main=='Haze'){
                 icon='fas fa-cloud'
                 coolMessage = " - Maybe we inside the clouds 🙃";
-            if(data.weather.weather[0].main=='Clear')
+            }
+            if(data.weather.weather[0].main=='Clear'){
                 coolMessage = " - The day is beautiful 😀"
                 icon= 'fas fa-sun';
-            if(data.weather.weather[0].main=='Rain')
+            }   
+            if(data.weather.weather[0].main=='Rain'){
                 coolMessage = " - A great day to watch netflix 😴"
                 icon='fas fa-cloud-showers-heavy';
-            if(data.weather.weather[0].main=='Snow')
+            }
+            if(data.weather.weather[0].main=='Snow'){
                 coolMessage = " - Lets make a snowman ☃️"
-                icon= 'far fa-snowflake';  
-            if(data.weather.weather[0].main=='Mist')
+                icon= 'far fa-snowflake';
+            }  
+            if(data.weather.weather[0].main=='Mist'){
                 coolMessage = " - Don't forget your coat 🧥"
-                icon= 'fas fa-smog';        
+                icon= 'fas fa-smog';
+            }        
 
         console.log(data.weather.name,icon);
         var output = ``;
