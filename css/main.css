@@ -1,8 +1,15 @@
-#list{
-	margin-top:1%;
-}
 body{
 	padding: 5%;
 	height:100vh;
 	background: linear-gradient(135deg,#202040 0%,#202060 ,#602080 ,#b030b0 100%);
+	font-family: 'Patrick Hand', cursive;
+	font-size: 1.25em
+}
+
+#list{
+	margin-top:1%;
+}
+
+.title {
+	font-size: 3em
 }
