@@ -2,7 +2,7 @@ body{
 	padding: 5%;
 	height:100vh;
 	background: linear-gradient(135deg,#202040 0%,#202060 ,#602080 ,#b030b0 100%);
-	font-family: 'Mansalva', cursive;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.25em
 }
 
