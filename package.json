@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A simple web app to display weather details.",
   "scripts": {
-    "test": ""
+    "test": "node_modules/mocha/bin/mocha spec"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/rexagod/my-weather-app#readme",
   "devDependencies": {
-    "husky": "^3.0.9"
+    "assert": "^2.0.0",
+    "husky": "^3.0.9",
+    "mocha": "^6.2.2"
   },
   "husky": {
     "hooks": {
