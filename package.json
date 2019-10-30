@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/rexagod/my-weather-app/issues"
   },
-  "homepage": "https://github.com/rexagod/my-weather-app#readme"
+  "homepage": "https://github.com/rexagod/my-weather-app#readme",
+  "devDependencies": {
+    "husky": "^3.0.9"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test && echo"
+    }
+  }
 }
