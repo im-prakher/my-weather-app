@@ -1,0 +1,24 @@
+{
+  "name": "my-weather-app",
+  "version": "0.0.1",
+  "description": "A simple web app to display weather details.",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rexagod/my-weather-app.git"
+  },
+  "keywords": [
+    "weather",
+    "first-timers",
+    "beginners",
+    "hacktoberfest"
+  ],
+  "author": "terabo090",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rexagod/my-weather-app/issues"
+  },
+  "homepage": "https://github.com/rexagod/my-weather-app#readme"
+}
