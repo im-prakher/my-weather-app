@@ -1,8 +1,8 @@
 body{
 	padding: 5%;
 	height:100vh;
-	background-color: purple;
-	font-family: 'Open Sans', sans-serif;
+	background-color: blue;
+	font-family: 'Open Sans', serif;
 	font-size: 1.2em
 }
 
@@ -12,4 +12,6 @@ body{
 
 .title {
 	font-size: 3em;
+	font-family: 'Weather App', Sans-serif;
+        font-style: italic;
 }
